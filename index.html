@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link href="main.css" rel="stylesheet"> -->
+
+</head>
+
+<body>
+  <input type="number" id = "indexOnloadFile" min="1"/>
+
+  <input type="file" id = "onloadfile" onchange="encodeImageFileAsURL(this)" accept=".jpg, .jpeg, .png ,.ico" />
+
+  <img src="" id = "foto" style="width:140px;height: 160px;">  
+  
+
+  <div class="exsample4" id = "Upload">
+    <button onclick = "UploadFile(3)"> Upload </button>
+  </div>
+
+  <div class="exsample4" id = "Save">
+    <button onclick = "buttonOnclickSave()"> Save </button>
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
+
+  
